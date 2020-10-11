@@ -1,0 +1,5 @@
+<div class="container mt-3">
+    <pre *ngIf="auth.userProfile$ | async as user">
+        {{user|json}}
+    </pre>
+</div>
